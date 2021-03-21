@@ -1,0 +1,28 @@
+//linkタグの共通プロパティ・プロパティ値
+.link-text{
+  text-decoration: none;
+}
+
+.head-contena{
+  height: 20vh;
+  width: 100%;
+  .section-title{
+    height: 70%;
+    width: 100%;
+    background-color: red;
+    h1.title{
+      color: yellow;
+      text-align: center;
+      font-size: 100px;
+    }
+  }
+  .section-items{
+    height: 30%;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    .link-item{
+      margin-right: 10%;
+    }
+  }
+}
