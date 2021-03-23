@@ -1,8 +1,39 @@
 .head-contena
-  .section-title
+  %section.title
     %h1.title hajiTweet
-  .section-items
-    .link-newUser
-      = link_to "新規登録", "#",{class:"link-text"}
-    .link-login
-      = link_to "ログイン", "#",{class:"link-text"}
+  %section.items
+    .left-itemBox
+      .item-link.newUser
+        = link_to "新規登録", "#",{class:"link-text"}
+      -# .item-link.mypage
+      -#   = link_to "マイページ", "#",{class:"link-text"}
+      .item-link.login
+        = link_to "ログイン", "#",{class:"link-text"}
+      -# .item-link.logOut
+      -#   = link_to "ログアウト", "#",{class:"link-text"}
+    .right-itemBox
+      .item-form.keyWord
+        = form_with url: "#" do |f|
+          = f.text_field :email, class: 'keyWordForm', placeholder: "キーワードから探す"
+        -# = f.text_field :email, placeholder: "Enter your email..."
+.body-contena
+  %section.tweets-content
+    .tweet-cardItem
+    .tweet-cardItem
+    .tweet-cardItem
+    .tweet-cardItem
+    .tweet-cardItem
+    .tweet-cardItem
+    .tweet-cardItem
+.flexbox
+  .flex-child aaa
+  .flex-child bbb
+  .flex-child ccc
+  .flex-child ddd
+  .flex-child eee
+  .flex-child ddd
+  .flex-child fff
+  .flex-child ggg
+  .flex-child hhh
+  .flex-child hhh
+  .flex-child hhh
