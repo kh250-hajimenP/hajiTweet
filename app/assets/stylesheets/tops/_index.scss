@@ -59,40 +59,52 @@
   .tweets-content{
     display:flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     height: 100%;
     width: 100%;
     .tweet-cardItem::after{
       content:"";
       display: block;
-      width:24%;
+      width:28%;
     }
     .tweet-cardItem{
       background-color: cornflowerblue;
+      margin-top: 3%;
       height: 80%;
-      width:24%;
+      width: 28%;
       border:1px solid #E5E0DF;
-      padding:20px;
-      margin-bottom:20px;
+      margin-bottom:1%;
       box-sizing:border-box;
+      margin-left: 2%;
+      margin-right: 2%;
+    }
+  }
+  section.end-content{
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+    .teststet{
+      height: 80%;
+      width: 100%;
+      background-color: darkgreen;
     }
   }
 }
-.flexbox{
-  display:flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-/* afterを追加するだけ！！ */
-.flexbox::after{
-  content:"";
-  display: block;
-  width:24%;
-}
-.flex-child{
-  width:24%;
-  border:1px solid #E5E0DF;
-  padding:20px;
-  margin-bottom:20px;
-  box-sizing:border-box;
-}
+// .flexbox{
+//   display:flex;
+//   flex-wrap: wrap;
+//   justify-content: space-between;
+// }
+// /* afterを追加するだけ！！ */
+// .flexbox::after{
+//   content:"";
+//   display: block;
+//   width:24%;
+// }
+// .flex-child{
+//   width:24%;
+//   border:1px solid #E5E0DF;
+//   padding:20px;
+//   margin-bottom:20px;
+//   box-sizing:border-box;
+// }
