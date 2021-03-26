@@ -1,9 +1,11 @@
 //ブラウザ表示cssリセット用
 @import 'modules/reset'; 
+@import 'modules/common';
 
-//top_Controller_css
+
+//top_Controller_scss
 @import "tops/index";
-@import "tweets/_index";
+@import "tweets/index";
 
 //画面テスト用
 @import "tests";
